@@ -13,7 +13,7 @@ console.log(gameName.indexOf('e'));
 const subGameName = gameName.substring(0, 3); 
 console.log(subGameName); //Neh
 
-const subGameName1 = gameName.slice(-5,  2);
+const subGameName1 = gameName.slice(2,  -2);
 console.log(subGameName1); //
 
 const subGameName2 = "        neha    ";
@@ -27,3 +27,9 @@ console.log(url.includes("neha"));
 
 const anotherName = "neha-chopra-t"
 console.log(anotherName.split('-'))
+
+//escape characters 
+// \n - new line
+// \t - tab space
+// strings are immutatable
+
